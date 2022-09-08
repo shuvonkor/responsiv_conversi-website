@@ -1,0 +1,206 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background image style  */
+.header_container {
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.8)), url(/img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 90vh;
+    width: 100%;
+}
+
+/* Navigation bar style */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1% 6%;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* navbar logo */
+nav img {
+    width: 150px;
+}
+
+.nav_links ul li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    font-size: 1.0.5rem;
+}
+
+.nav_links ul li a {
+    display: block;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.855);
+}
+
+#sing_up_btn a {
+    background-color: rgb(247, 107, 83);
+    border-radius: 11px;
+
+}
+
+#sing_up_btn a:hover {
+    background-color: rgb(246, 90, 62);
+}
+
+.nav_links ul li a:hover {
+    color: #fff;
+}
+
+/* Homepage banner section  */
+.banner_container {
+    align-items: center;
+    padding-top: 80px;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 2rem;
+}
+
+.banner-text p {
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+/* get in touch form */
+.form-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+/* get in touch form */
+.git_in_touch_form {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form_text {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 30px 35px;
+    text-align: center;
+    text-align: justify;
+    background-color: rgb(248, 100, 75);
+    color: #fff;
+}
+
+.form-header {
+    display: flex;
+    gap: 5px;
+}
+
+.form_text h4 {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.form_text p {
+    width: 290px;
+    font-size: 1.2rem;
+}
+
+/* input section design  */
+input,
+textarea {
+    display: block;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.form-input input {
+    width: 300px;
+    padding: 13px 20px;
+}
+
+.form-input textarea {
+    width: 300px;
+    height: 100px;
+    padding: 13px 20px;
+}
+
+.form-input input[type=button] {
+    background-color: rgb(237, 100, 76);
+    border: none;
+    color: #fff;
+}
+
+/* banner feature  */
+.banner-features {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 12px;
+    gap: 15px;
+}
+
+.banner-features i {
+    font-size: 2rem;
+    color: white;
+    margin: 16px;
+}
+
+.banner-features h4 {
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.banner-features p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 8px;
+}
+
+/* Get More Paying Customers  */
+.paying-customers-container {
+    width: 60%;
+    margin: 70px auto;
+    text-align: center;
+}
+.paying-customers-container h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.paying-customers-container p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 15px;
+    color: gray;
+}
+.paying-customers {
+    display: flex;
+    gap: 25px;
+    width: 55%;
+    margin: auto;
+    justify-content: center;
+}
+.paying-customers h3{
+    font-size: 1.5rem;
+}
+.paying-customers p{
+    font-size: 1rem;
+}
