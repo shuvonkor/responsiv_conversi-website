@@ -369,32 +369,38 @@ textarea {
     justify-content: center;
     gap: 200px;
 }
-.element{
+
+.element {
     text-align: center;
     font-size: 3rem;
     padding: 50px 0;
 }
-.element p{
+
+.element p {
     font-size: 1.5rem;
 }
+
 /* Plans and pricing  */
-.plans-and-pricing-container{
+.plans-and-pricing-container {
     width: 50%;
     text-align: center;
     margin: 60px auto;
 }
-.plans-and-pricing-container h2{
+
+.plans-and-pricing-container h2 {
     font-size: 2.5rem;
     padding: 5px;
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 .plans-and-pricing-container p {
     font-size: 1.3rem;
     padding: 5px;
     font-weight: 300;
 }
-.plans-and-prinig-cart{
+
+.plans-and-prinig-cart {
     width: 60%;
     max-width: 1100px;
     margin: auto;
@@ -404,32 +410,39 @@ textarea {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 30px;
 }
-.cart{
+
+.cart {
     border: 2px solid #807979;
 }
-.cart h3{
+
+.cart h3 {
     font-size: 2rem;
     text-transform: capitalize;
     padding: 20px;
 }
-.cart ul{
+
+.cart ul {
     list-style-type: none;
 }
-.cart li{
+
+.cart li {
     font-size: 1.1rem;
     padding: 18px;
 }
-.cart-btn{
+
+.cart-btn {
     background-color: rgb(193, 182, 180);
     padding: 30px 0px;
 }
-.cart-btn a{
+
+.cart-btn a {
     text-decoration: none;
     color: white;
     padding: 10px 30px;
     background-color: tomato;
 }
-.price-btn{
+
+.price-btn {
     background-color: tomato;
     margin: auto;
     width: 150px;
@@ -440,11 +453,219 @@ textarea {
     justify-content: center;
     align-items: center;
 }
-.cercle{
+
+.circle-text {
+    width: 50%;
+    color: #fff;
+}
+
+.circle-text h5 {
+    font-size: 3rem;
+}
+
+.recommended {
+    background-color: tomato;
+
+}
+
+.recommended h6 {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}
+
+/* Frequently Asked Questions  */
+.questions-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 150px;
+    background-color: #F6F8F9;
+}
+
+.questions-container h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+}
+
+.questions-container p {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.asked-questions {
+    width: 45%;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.question {
+    text-align: left;
+}
+
+.question h3 {
+    font-size: 1.9rem;
+    padding: 10px 0;
+}
+
+.question p {
+    font-size: 1.2rem;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.questions-container h5 {
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.questions-container h5 a {
+    color: tomato;
+}
+
+/* Find Us on the map  */
+
+.map-container {
+    background-color: tomato;
+    z-index: 80;
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.map-icon {
     position: absolute;
+    top: -35px;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%);
+    z-index: 90;
+}
+
+.map-icon .fa-solid {
+    background-color: orange;
+    display: block;
+    padding: 27px;
+    /* width: 100px; */
+    /* height: 100px; */
+    border-radius: 50%;
+    margin: 0 20px 20px 20px;
+    outline: 4px solid white;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.map-img {
+    opacity: .2;
+}
+
+.map-text {
+    position: absolute;
+    z-index: 50;
+    top: 35%;
+    right: 35%;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.map-text h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding: 20px;
 }
 
 
+
+
+
+
+/* .map-container{
+    background-image: tomato url(/img/map.png); 
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    opacity: .5;
+}
+ 
+.map-container h1{
+    font-size: 3rem;
+}   */
+
+/* Subscribe for The Latest Offers !  */
+.subscribe-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.6)), url(/img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+.subscribe-container h1 {
+    font-size: 3.5rem;
+    padding-top: 100px;
+}
+
+.subscribe-container h6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.subscribe-container input {
+    width: 500px;
+    padding: 16px 20px;
+    font-size: 1.3rem;
+}
+
+.subscribe-container input[type=button] {
+    background-color: tomato;
+    color: #fff;
+}
+
+.subscribe-container p {
+    width: 17%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+/* footer design  */
+
+.footer-contaienr {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F8F9;
+    padding: 30px;
+}
+
+.footer-contaienr i {
+    font-size: 2.5rem;
+    margin: 0 15px;
+    color: tomato;
+}
+
+.footer-contaienr {
+    font-size: 1.2rem;
+}
